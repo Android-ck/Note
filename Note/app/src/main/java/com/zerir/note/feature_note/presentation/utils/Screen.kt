@@ -1,0 +1,6 @@
+package com.zerir.note.feature_note.presentation.utils
+
+sealed class Screen(val route: String) {
+    object NotesScreen: Screen("notes_list_screen")
+    object AddEditNoteScreen: Screen("add_edit_note_screen")
+}
